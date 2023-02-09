@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* banner section styles start */
+.banner {
+    background-image: url("../images/banner/banner1.png");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: right;
+  }
+  
+  .banner-title{
+    width: 45%;
+    margin-top: 50px;
+    margin-left: 600px;
+  }
+  button {
+    height: 50px;
+    width: 150px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+/* banner section styles end */
+/* previous item styles start */
+.image-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.previous-item h2 {
+    font-weight:700;
+    font-size: 40px;
+}
+.previous-item p {
+    font-size: 18px;
+}
+/* previous item styles end */
+/* contact form stayle start */
+.contact-form{
+    margin-top: 50px;
+    text-align: center;
+}
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+  
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"], input[type="email"] {
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+  }
+  
+  input[type="submit"] {
+    height: 50px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+/* contact form stayle end */
+/* My palns item styles start */
+.my-plans-item {
+    margin-top: 50px;
+}
+.my-plans-item h2 {
+    text-align: center;
+    font-weight: 700;
+}
+.my-plans-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.my-plans-items img {
+    width: 70px;
+    margin-top: 10px;
+}
+.my-plans-items h3{
+    font-weight: 700;
+}
+/* My palns item styles end */
+/* call now section stayles start */
+.call-now-section{
+    background: linear-gradient(90deg, #F15B22 -0.07%, rgba(241, 91, 34, 0) 93.84%), url("../images/watch.png");
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.call-now-item{
+    width: 30%;
+    height: 80px;
+    margin:0px auto;
+    padding-top: 70px;
+    
+}
+
+.call-now-section{
+   margin-top: 50px;
+}
+.call-now-section h2{
+    color: white;
+}
+.call-now-item .button{
+  background-color: #f2f2f2;
+  color: #F15B22;
+}
+
+/* call now section stayles end */
+/* footer section style start */
+.footer-section{
+  display: flex;
+  height: 300px;
+  padding-bottom: 100px;
+  background-color: black;
+}
+.footer-title{
+  color: rgba(255, 255, 255, 0.817);
+  width: 40%;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.footer-title i {
+  color: #f2f2f2;
+  font-size: 30px;
+  margin: 10px;
+}
+.footer-title-2{
+  color: #ccc;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+.footer-title-2 h2{
+  margin-top: 20px;
+}
+
+.button-2{
+  margin-top: 35px;
+}
+/* footer section style end */
+  
+  
+
+  
